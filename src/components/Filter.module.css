@@ -1,0 +1,11 @@
+.filterLabel {
+  display: block;
+  margin-bottom: 2vw;
+}
+
+input {
+  font-size: 1vw;
+  padding: 0.5vw;
+  max-width: 40vw;
+  max-height: 5vw;
+}

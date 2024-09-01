@@ -1,0 +1,48 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50vw;
+  padding: 3vw;
+  border: 0.2vw solid #ccc; /* O ramă în jurul întregului formular */
+  border-radius: 1vw; /* Colțuri rotunjite pentru formular */
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1vw;
+  font-size: 3vw;
+  font-weight: bold; /* Textul label-ului să fie bold */
+}
+
+input {
+  padding: 1vw;
+  max-width: 40vw;
+  max-height: 5vw;
+  border: 0.2vw solid #6e6e6e; /* Rama vizibilă pentru input-uri */
+  border-radius: 0.4vw; /* Colțuri rotunjite pentru input-uri */
+  margin-bottom: 1.5vw; /* Spațiu între input-uri */
+}
+
+input:focus {
+  outline: none;
+  border-color: #0056b3; /* Schimbă culoarea ramei când input-ul este selectat */
+}
+
+.add {
+  max-width: 20vw;
+  max-height: 7vw;
+  padding: 1vw;
+  font-size: 2vw;
+  background-color: #449cfa;
+  color: #fff;
+  border: none;
+  border-radius: 0.5vw;
+  cursor: pointer;
+}
+
+.add:hover {
+  background-color: #0056b3;
+}
